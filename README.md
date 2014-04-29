@@ -3,7 +3,17 @@ jeromq-toolkit [![Build Status](https://secure.travis-ci.org/Horsed/jeromq-toolk
 
 Helpers for simplyfied use of jeromq (zeromq for Java)
 
-## Publish/Subscribe API
+## Maven
+
+```xml
+<dependency>
+  <groupId>org.horsed</groupId>
+  <artifactId>jeromq-toolkit</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</dependency>
+```
+
+## API
 
 > Publisher
 
@@ -50,8 +60,6 @@ public class MyHandler {
 
 sub.addHandler(new MyHandler());
 ```
-
-## Request/Reply API
 
 > Router socket
 
