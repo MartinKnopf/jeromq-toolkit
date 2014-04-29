@@ -2,9 +2,29 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.horsed.jeromq-toolkit</groupId>
+	<groupId>org.horsed</groupId>
 	<artifactId>jeromq-toolkit</artifactId>
+  	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+	<name>jeromq-toolkit</name>
+	<description>Helpers for simplyfied use of jeromq (zeromq for Java)</description>
+	<url>https://github.com/Horsed/jeromq-toolkit</url>
+	<licenses>
+	  <license>
+	    <name>The MIT License (MIT)</name>
+	    <url>http://opensource.org/licenses/MIT</url>
+	  </license>
+	</licenses>
+	<scm>
+	  <url>https://github.com/Horsed/jeromq-toolkit</url>
+	</scm>
+	<developers>
+    <developer>
+      <id>Horsed</id>
+      <name>Martin Knopf</name>
+      <email>legendaryhorsed@gmail.com</email>
+    </developer>
+  </developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
