@@ -1,4 +1,4 @@
-jeromq-toolkit [![Build Status](https://secure.travis-ci.org/Horsed/jeromq-toolkit.png)](http://travis-ci.org/Horsed/jeromq-toolkit)
+jeromq-toolkit [ ![Codeship Status for Horsed/jeromq-toolkit](https://www.codeship.io/projects/360e9470-3505-0132-220b-1a38199b7ef2/status)](https://www.codeship.io/projects/40892)
 ==============
 
 Helpers for simplyfied use of jeromq (zeromq for Java)
